@@ -138,6 +138,8 @@ const game = (()=>{
     turn = 1;
     gameOver = false;
     gameBoard.clearBoard();
+    const message = `Player ${currentPlayerSymbol()}'s turn`;
+    displayController.updateMessage
   }
 
   const restartBtn = document.querySelector("#restart-btn")
