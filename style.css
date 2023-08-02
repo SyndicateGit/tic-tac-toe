@@ -1,0 +1,65 @@
+/*GLOBAL*/
+:root{
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*HEADER SECTION*/
+
+
+/*GAME-BOARD SECTION*/
+
+.game-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-board{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+
+  width: 500px;
+  height: 500px;
+
+  margin: 10px;
+}
+
+.game-board .square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: lightblue;
+  border: 1px solid black;
+
+  font-size: 5rem;
+}
+
+
+/*FOOTER SECTION*/
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#github-icon{
+  width: 25px;
+}
+
+/*Removes SyndicateGit link color and underline*/
+a{
+  text-decoration: none;
+  color: inherit;
+}
