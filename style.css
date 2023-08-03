@@ -43,7 +43,7 @@ font-family:'Varela Round', sans-serif;
   justify-content: center;
   align-items: center;
 
-  background-color: lightblue;
+  background-color: #89cff0;
   border: 1px solid black;
 
   font-size: 5rem;
@@ -112,6 +112,8 @@ a{
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: #89cff0;
+  font-weight: bold;
 }
 
 * {
